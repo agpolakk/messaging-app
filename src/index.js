@@ -5,7 +5,7 @@ import {
     ReceiveMessageCommand,
     PurgeQueueCommand,
   } from "@aws-sdk/client-sqs";
-  import { sqsClient } from "./libs/sqsClient.js";
+  import { sqsClient } from "./lib/sqsClient.js";
   
   const QueueName = "Message.fifo"; // The Amazon SQS queue name, which must end in .fifo for this example.
   
