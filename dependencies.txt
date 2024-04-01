@@ -1,0 +1,6 @@
+npx create-react-app messaging
+cd messaging
+npm install
+npm install aws-sdk
+npm install aws-amplify @aws-sdk/client-cognito-identity react-router-dom
+npx amplify init
